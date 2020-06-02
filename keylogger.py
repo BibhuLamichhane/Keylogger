@@ -1,6 +1,4 @@
-from mss import mss
 from pynput.keyboard import Listener, Key
-import threading
 
 class Monitor:
 
